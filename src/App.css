@@ -1,0 +1,27 @@
+.App {
+  color: #413c3c;
+}
+
+.App nav ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.App nav li {
+  display: inline-block;
+  margin:20px;
+}
+
+.App nav a {
+  padding: 5px;
+  text-decoration: none !important;
+}
+
+.App nav .active {
+  color: #3167e2;
+  font-weight: bold;
+  border-bottom: 1px solid #3167e2;
+}
